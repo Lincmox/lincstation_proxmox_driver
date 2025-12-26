@@ -1,0 +1,37 @@
+# Environnement virtuel
+.venv/
+
+# Fichiers/dossiers Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Dossiers de build
+build/
+dist/
+
+# Pybuild et debian
+.pybuild/
+debian/*.log
+debian/*~
+debian/files
+debian/files.*
+debian/*.debhelper
+debian/tmp/
+debian/python3-lincmox-driver/
+debian/debhelper-build-stamp
+debian/python3-lincmox-driver.substvars
+
+# Archives Debian
+../python3-lincmox-driver_*.orig.tar.*
+../python3-lincmox-driver_*.debian.tar.*
+../python3-lincmox-driver_*.dsc
+../python3-lincmox-driver_*.changes
+../python3-lincmox-driver_*.build
+../python3-lincmox-driver_*.buildinfo
+../python3-lincmox-driver_*.deb
+# Autres
+*.swp
+*.swo

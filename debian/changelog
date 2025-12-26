@@ -1,0 +1,5 @@
+python3-lincmox-driver (1.0.0-1) unstable; urgency=medium
+
+  * Python driver to control LincStation N1 LEDs.
+
+ -- Florent GAUDIN <florentgaudin24@gmail.com>  Sat, 26 Dec 2025 12:00:00 +0000

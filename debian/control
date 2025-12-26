@@ -1,0 +1,20 @@
+Source: python3-lincmox-driver
+Section: python
+Priority: optional
+Maintainer: Florent GAUDIN <florent.gaudin@lincmox.ovh>
+Build-Depends:
+ debhelper-compat (= 13),
+ dh-python,
+ python3-all,
+ python3-setuptools
+Standards-Version: 4.6.2
+Homepage: https://doc.lincmox.ovh
+Rules-Requires-Root: no
+
+Package: python3-lincmox-driver
+Architecture: amd64
+Depends:
+ ${python3:Depends},
+ ${misc:Depends}
+Description: Python driver to control LincStation LEDs
+ Driver for controlling LEDs on LincStation devices.
